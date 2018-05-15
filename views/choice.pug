@@ -1,0 +1,21 @@
+html
+    head
+        title Welcome on my awesome website!
+        link(rel="stylesheet", href="/css/styles.css")
+        link(href="https://fonts.googleapis.com/css?family=Pangolin", rel="stylesheet")
+    body
+        main
+            h1 Rock Paper Scissors
+            h2= resu
+            div.compareChoices-class
+              div.image-class
+                h2 Your choice:
+                br
+                img(src="/images/" + user + ".png")
+              div.image-class
+                h2 Computer choice:
+                br
+                img(src="/images/" + computer + ".png")
+            div
+              a(href="/homepage.pug").replay-class Rejouer
+              

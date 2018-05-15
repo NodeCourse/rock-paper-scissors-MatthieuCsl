@@ -1,0 +1,48 @@
+body {
+  background-color: #FF8C00;
+}
+
+main {
+  text-align: center;
+}
+
+.link-class {
+    color: blue;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Pangolin', cursive;
+  text-shadow: 3px 2px white;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Pangolin', cursive;
+  text-shadow: 3px 2px white;
+}
+
+h3 {
+
+}
+
+.choices-class {
+  margin: 100px;
+}
+
+.compareChoices-class {
+display: inline-flex;
+}
+
+.image-class {
+  margin: 30px;
+}
+
+.replay-class {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Pangolin', cursive;
+  text-shadow: 3px 2px white;
+  color: black;
+  text-decoration: underline;
+}
